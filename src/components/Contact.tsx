@@ -32,15 +32,16 @@ const Contact = () => {
                       916 W Division St Suite B<br />
                       Arlington, TX 76012
                     </p>
+
                     <a
-  href="https://maps.google.com/?q=916+W+Division+St+Suite+B,+Arlington,+TX+76012"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button className="mt-4 bg-accent hover:bg-accent/90 text-accent-foreground font-roboto">
-    Get Directions
-  </Button>
-</a>
+                      href="https://maps.google.com/?q=916+W+Division+St+Suite+B,+Arlington,+TX+76012"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button className="mt-4 bg-accent hover:bg-accent/90 text-accent-foreground font-roboto">
+                        Get Directions
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </CardContent>
@@ -94,7 +95,8 @@ const Contact = () => {
           {/* Map */}
           <div className="h-[600px] rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps?q=916%20W%20Division%20St%20Suite%20B%2C%20Arlington%2C%20TX%2076012&output=embed"100%"
+              src="https://www.google.com/maps?q=916%20W%20Division%20St%20Suite%20B%2C%20Arlington%2C%20TX%2076012&output=embed"
+              width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
