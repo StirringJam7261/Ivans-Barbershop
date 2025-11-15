@@ -32,15 +32,15 @@ const Contact = () => {
                       916 W Division St Suite B<br />
                       Arlington, TX 76012
                     </p>
-                    <a 
-                      href="https://maps.google.com/?q=916 W Division St Suite B, Arlington, TX 76012
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button className="mt-4 bg-accent hover:bg-accent/90 text-accent-foreground font-roboto">
-                        Get Directions
-                      </Button>
-                    </a>
+                    <a
+  href="https://maps.google.com/?q=916+W+Division+St+Suite+B,+Arlington,+TX+76012"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button className="mt-4 bg-accent hover:bg-accent/90 text-accent-foreground font-roboto">
+    Get Directions
+  </Button>
+</a>
                   </div>
                 </div>
               </CardContent>
