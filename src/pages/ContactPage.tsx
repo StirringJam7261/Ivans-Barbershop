@@ -1,13 +1,9 @@
 import Contact from "@/components/Contact";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 
 const ContactPage = () => {
   return (
     <div className="min-h-screen">
-      <Navigation />
       <Contact />
-      <Footer />
     </div>
   );
 };
