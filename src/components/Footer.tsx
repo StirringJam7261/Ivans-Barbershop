@@ -1,13 +1,8 @@
 import { Instagram, Facebook } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <footer className="bg-secondary text-secondary-foreground py-12">
@@ -27,30 +22,30 @@ const Footer = () => {
               QUICK LINKS
             </h3>
             <div className="space-y-2">
-              <button
-                onClick={() => scrollToSection("services")}
+              <Link
+                to="/services"
                 className="block font-roboto text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
               >
                 Services
-              </button>
-              <button
-                onClick={() => scrollToSection("about")}
+              </Link>
+              <Link
+                to="/about"
                 className="block font-roboto text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
               >
                 About
-              </button>
-              <button
-                onClick={() => scrollToSection("gallery")}
+              </Link>
+              <Link
+                to="/gallery"
                 className="block font-roboto text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
               >
                 Gallery
-              </button>
-              <button
-                onClick={() => scrollToSection("contact")}
+              </Link>
+              <Link
+                to="/contact"
                 className="block font-roboto text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
               >
                 Contact
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -60,12 +55,17 @@ const Footer = () => {
               CONNECT WITH US
             </h3>
             <div className="space-y-2 mb-4">
-              <p className="font-roboto text-secondary-foreground/80">
+              <a
+                href="https://maps.google.com/?q=916+W+Division+St+Suite+B,+Arlington,+TX+76012"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block font-roboto text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
+              >
                 916 W Division St Suite B<br />
                 Arlington, TX 76012
-              </p>
+              </a>
               <a 
-                href="tel:8179872555" 
+                href="tel:+18179872555" 
                 className="block font-roboto text-secondary-foreground/80 hover:text-secondary-foreground transition-colors"
               >
                 (817) 987-2555

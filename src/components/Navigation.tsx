@@ -42,7 +42,7 @@ const Navigation = () => {
                 {item.label}
               </Link>
             ))}
-            <a href="tel:8179872555">
+            <a href="tel:+18179872555">
               <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-roboto font-medium">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Now
@@ -75,7 +75,7 @@ const Navigation = () => {
                 {item.label}
               </Link>
             ))}
-            <a href="tel:8179872555" className="block">
+            <a href="tel:+18179872555" className="block">
               <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-roboto font-medium">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Now
