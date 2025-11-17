@@ -28,7 +28,7 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href="tel:8179872555">
+          <a href="tel:+18179872555">
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-roboto font-bold text-lg px-8 py-6"
